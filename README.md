@@ -1,8 +1,8 @@
 # Introdução a lógica de programação 
 
-Cada linguagem de programação têm sua própria estrutura de dados embutida, e essa estrutura frequentemente difere uma da outra.  Vamos conhecer os tipos de dados disponíveis na linguagem JavaScript e que propriedades eles possuem.
+![js](https://media.licdn.com/dms/image/C4E12AQFSLShWrDRc_A/article-cover_image-shrink_720_1280/0/1648056023849?e=2147483647&v=beta&t=3xVkoe16mHiiUmYfNB1-a7ARItZCDJd70gH1ioP-OMc)
 
-Isso envolve o estudo de... Tipos primitivos, objetos, operadores, variáveis e estruturas condicionais.
+Cada linguagem de programação têm sua própria estrutura de dados embutida, e essa estrutura frequentemente difere uma da outra.  Vamos conhecer os tipos de dados disponíveis na linguagem JavaScript e que propriedades eles possuem. Isso envolve o estudo de variáveis e tipos primitivos.
 
 # Variáveis
 
@@ -56,9 +56,11 @@ A grande maioria das linguagens possui o conceito de escopos, e JavaScript não 
 
 Em outras palavras, o que determina quais são os dados que podem ser acessados em uma determinada parte do código é o escopo.
 
+
 ## Escopo Gobal
 
 Todos tem acesso a valores que são definidos no escopo global.
+
 
 ## Escopo Local
 
@@ -87,10 +89,10 @@ if (2 > 1) {
   console.log(popular)
 }
 ```
+
 # Estrutura de dados: Tipos primitivos
 
-
-
+Um primitivo (valor primitivo, tipo de dados primitivo) é um dado que não é representado através de um Objeto e, por consequência, não possui métodos.
 
 ### String X Template string
 
