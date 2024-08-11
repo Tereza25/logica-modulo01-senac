@@ -1,6 +1,8 @@
-# senac-logicaEalgoritmos
+# Introdução a lógica de programação 
 
+Cada linguagem de programação têm sua própria estrutura de dados embutida, e essa estrutura frequentemente difere uma da outra.  Vamos conhecer os tipos de dados disponíveis na linguagem JavaScript e que propriedades eles possuem.
 
+Isso envolve o estudo de... Tipos primitivos, objetos, operadores, variáveis e estruturas condicionais.
 
 # Variáveis
 
@@ -148,22 +150,99 @@ com o Number:
 ````
 
 MDN: [javascript math](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Math)
----
 
-### Null (nulo) -> pode ser utilizado para representar um valor vazio
+### Null (nulo)
 
-### Undefined -> valor que nao foi definido
+Pode ser utilizado para representar um valor vazio
+
+### Undefined alor que nao foi definido
 
 ### Boolean
 `false` e `true`
 
 Muitas vezes, na programação, você precisará de um tipo de dado que só pode ter um de dois valores.
 Exemplo:
-SIM / NÃO
-LIGADO / DESLIGADO
-VERDADEIRO / FALSO
+- SIM / NÃO
+- LIGADO / DESLIGADO
+- VERDADEIRO / FALSO
 
 Para isso, JavaScript tem um tipo de dado Boolean . Ele só pode receber os valores true ou false.
 ```js
 console.log(10 > 9)
 console.log(2 !== "dois")
+```
+
+# Operadores
+
+## Operadores Matemáticos
+
+```
++  mais
+-  menos
+*  multiplicação
+/  divisão
+%  modulo (ou resto)
+** potencia
+```
+
+## Operadores de Atribuição
+
+a = 2 -> atribui valor de 2 para a
+
+
+## Operadores Lógicos
+
+```
+&&  significa E
+||  significa OU
+```
+
+## Operadores de Comparação
+
+```
+==   igual
+===  igual
+>    maior que
+<    menor que
+>=   maior igual a
+<=   menor igual a
+!==  diferente
+!=   diferente
+ ```
+
+### Triple equals vs Double equals
+```
+2 == 2 // true
+2 === 2 // true
+2 === "2" // false
+2 == "2" // true
+```
+
+O double equals vai tentar nos ajudar na comparação, e ao notar que
+estamos tentando comparar tipos diferentes (string e number) ele vai tentar converter a string para number. No caso acima ele consegue e por isso temos o resultado true.
+
+Entao por baixo dos panos o que aconteceu foi:
+``2 == Number("2") //true``
+
+Com o triple equals o javascript nunca tenta converter os valores. Por isso, o resultado false.
+
+Sendo assim, __recomenda-se usar o triple equals__ para evitar surpresas.
+
+E a internet não perdoa as surpresas:
+
+![meme1](https://www.freecodecamp.org/news/content/images/2019/07/best-js-meme-to-date-2.png)
+
+### Vamos estudar mais sobre o assunto?
+
+[História e memes do JavaScrip](https://www.youtube.com/playlist?list=PLh2Y_pKOa4UeJOI2P-N6J8nGyV3aCuO3O)
+
+[const, let e var](https://medium.com/@natalya.peixoto/var-const-e-let-qual-a-diferen%C3%A7a-338ff0c7a972)
+
+[Eloquent Javascript](https://braziljs.github.io/eloquente-javascript/chapters/valores-tipos-operadores/)
+
+[Valores Verdadeiros e falsos - Truthy e falsy](https://developer.mozilla.org/pt-BR/docs/Glossario/Truthy#:~:text=Nesta%20p%C3%A1gina&text=Em%20JavaScript%2C%20um%20valor%20truthy,de%20tipo%20em%20contextos%20booleanos)
+
+
+
+
+
