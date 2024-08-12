@@ -113,7 +113,7 @@ const templateString = `Olá, ${nome}`
 
 console.log(templateString)
 ```
-### Concatenação de stringss
+### Concatenação de strings
 
 Concatenar é uma palavra chique da programação que significa "colocar junto". Para colocar strings juntas em JavaScript, usamos o operador (+), o mesmo usamos para adicionar números, mas neste contexto é algo diferente. Vamos tentar este exemplo no console.
 
@@ -157,7 +157,7 @@ MDN: [javascript math](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript
 
 Pode ser utilizado para representar um valor vazio
 
-### Undefined alor que nao foi definido
+### Undefined valor que não foi definido
 
 ### Boolean
 `false` e `true`
